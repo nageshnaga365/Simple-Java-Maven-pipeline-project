@@ -40,7 +40,7 @@ pipeline {
                 // Simple deployment example
                 sh 'echo "Deploying application..."'
                 // Example of copying artifacts to a deploy location
-            
+            }
         }
     }
 
@@ -61,4 +61,4 @@ pipeline {
         }
     }
 }
-}
+
